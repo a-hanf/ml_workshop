@@ -6,7 +6,7 @@
 ### iris dataset
 
 - create a conda environment with required packages (in console): `conda create -n ml_workshop scikit-learn matplotlib ipykernel`
-- Activate conda environment and start a Jupyter notebook using the environ:
+- Activate conda environment and start the Jupyter notebook:
 
         conda activate ml_workshop
         python -m ipykernel install --user --name ml_workshop --display-name "ML Workshop"
@@ -24,6 +24,6 @@ This requires your GPU to be CUDA-enabled - you may have to install additional d
 - Install remaining libraries:
 
         conda activate ml_workshop2
-	conda install keras scikit-learn ipykernel pillow h5py
+        conda install keras scikit-learn ipykernel pillow h5py
         python -m ipykernel install --user --name ml_workshop2 --display-name "ML Workshop - cats vs. dogs"
         jupyter notebook
